@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="js/funcoes.js" type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <!--4 operações básicas-->
+
+    <input type="text" id="num1" size="2"><br>
+    <input type="text" id="num2" size="2"><br>
+    <input type="radio" name="opt" value="+">+
+    <input type="radio" name="opt" value="-">-
+    <input type="radio" name="opt" value="*">*
+    <input type="radio" name="opt" value="/">/
+    <br>
+    <button onclick="Calculadora()">Calcular</button>
+    <h3>Resultado:</h3>
+    <p id="mostrar-resultado">
+        <!--Mostrar aqui o resultado-->
+    </p>
+
+    <!--Potência-->
+
+    <hr>
+    <h3>Digite a base:</h3>
+    <input type="text" id="num" size="2"><br>
+    <h3>Digite o expoente:</h3>
+    <input type="text" id="elevado" size="2"><br>
+    <br>
+    <button onclick="Potencia()">Calcular</button>
+    <h3>Resultado:</h3>
+    <p id="resultado-potencia">
+        <!--Mostrar aqui o resultado-->
+    </p>
+
+    <!--Raiz-->
+
+    <hr>
+    <input type="text" id="numraiz" size="2"><br>
+    <br>
+    <button onclick="Raiz()">Calcular</button>
+    <h3>Resultado:</h3>
+    <p id="resultado-raiz">
+        <!--Mostrar aqui o resultado-->
+    </p>
+
+    <!--Área de um triângulo retângulo-->
+
+    <hr>
+    <input type="text" id="lado1" size="2"><br>
+    <input type="text" id="lado2" size="2"><br>
+    <br>
+    <button onclick="Area()">Calcular</button>
+    <h3>Resultado:</h3>
+    <p id="resultado-area">
+        <!--Mostrar aqui o resultado-->
+    </p>
+
+    <!--Bhaskara-->
+
+    <hr>
+    <input type="text" id="a" size="2"><br>
+    <input type="text" id="b" size="2"><br>
+    <input type="text" id="c" size="2"><br>
+    <br>
+    <button onclick="Quadratica()">Calcular</button>
+    <h3>Resultado:</h3>
+    <p id="resultado-bhaskara1">
+        <!--Mostrar aqui o resultado-->
+    </p>
+    <p id="resultado-bhaskara2">
+        <!--Mostrar aqui o resultado-->
+    </p>
+    
+</body>
+</html>

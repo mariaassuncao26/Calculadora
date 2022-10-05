@@ -1,0 +1,52 @@
+//Calculadora com as 4 operações básicas
+function Calculadora(){
+    num1 = document.getElementById("num1").value;
+    num2 = document.getElementById("num2").value;
+
+    operador = document.querySelector("input[name=opt]:checked").value;
+
+    resultado = eval(parseInt(num1) + operador + parseInt(num2));
+
+    document.getElementById("mostrar-resultado").innerHTML = resultado;
+}
+
+function Potencia(){
+    num = document.getElementById("num").value;
+    elevado = document.getElementById("elevado").value;
+    resultado = parseInt(Math.pow(num, elevado));
+
+    document.getElementById("resultado-potencia").innerHTML = resultado;
+}
+
+function Raiz(){
+    num = document.getElementById("numraiz").value;
+    resultado = parseInt(Math.sqrt(num));
+
+    document.getElementById("resultado-raiz").innerHTML = resultado;
+}
+
+function Area(){
+    lado1 = document.getElementById("lado1").value;
+    lado2 = document.getElementById("lado2").value;
+
+    operador = document.querySelector("input[name=opt]:checked").value;
+
+    resultado = eval(parseInt(num1) + operador + parseInt(num2));
+
+    document.getElementById("resultado-area").innerHTML = resultado;
+}
+
+function Quadratica(){
+    a = document.getElementById("a").value;
+    b = document.getElementById("b").value;
+    c = document.getElementById("c").value;
+
+    delta = eval(parseInt(Math.pow(b,2) -4 * a * c));
+
+
+    resultado1 = eval(parseInt((-b + Math.sqrt(delta))/ 2 * a));
+    resultado2 = eval(parseInt((-b - Math.sqrt(delta))/ 2 * a));
+
+    document.getElementById("resultado-bhaskara1").innerHTML = resultado1;
+    document.getElementById("resultado-bhaskara2").innerHTML = resultado2;
+}

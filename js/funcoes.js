@@ -10,6 +10,7 @@ function Calculadora(){
     document.getElementById("mostrar-resultado").innerHTML = resultado;
 }
 
+//Pontência
 function Potencia(){
     num = document.getElementById("num").value;
     elevado = document.getElementById("elevado").value;
@@ -18,6 +19,7 @@ function Potencia(){
     document.getElementById("resultado-potencia").innerHTML = resultado;
 }
 
+//Raiz
 function Raiz(){
     num = document.getElementById("numraiz").value;
     resultado = parseInt(Math.sqrt(num));
@@ -25,17 +27,17 @@ function Raiz(){
     document.getElementById("resultado-raiz").innerHTML = resultado;
 }
 
+//Área
 function Area(){
-    lado1 = document.getElementById("lado1").value;
-    lado2 = document.getElementById("lado2").value;
+    b = document.getElementById("b").value;
+    h = document.getElementById("h").value;
 
-    operador = document.querySelector("input[name=opt]:checked").value;
-
-    resultado = eval(parseInt(num1) + operador + parseInt(num2));
+    resultado = eval(parseInt((b * h)/ 2));
 
     document.getElementById("resultado-area").innerHTML = resultado;
 }
 
+//Bhaskara
 function Quadratica(){
     a = document.getElementById("a").value;
     b = document.getElementById("b").value;

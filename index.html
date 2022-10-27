@@ -8,74 +8,7 @@
     <title>Calculadora</title>
 </head>
 <body>
-    
-    <!--4 operações básicas-->
-
-    <input type="text" id="num1" size="2"><br>
-    <input type="text" id="num2" size="2"><br>
-    <input type="radio" name="opt" value="+">+
-    <input type="radio" name="opt" value="-">-
-    <input type="radio" name="opt" value="*">*
-    <input type="radio" name="opt" value="/">/
-    <br>
-    <button onclick="Calculadora()">Calcular</button>
-    <h3>Resultado:</h3>
-    <p id="mostrar-resultado">
-        <!--Mostrar aqui o resultado-->
-    </p>
-
-    <!--Potência-->
-
-    <hr>
-    <h3>Digite a base:</h3>
-    <input type="text" id="num" size="2"><br>
-    <h3>Digite o expoente:</h3>
-    <input type="text" id="elevado" size="2"><br>
-    <br>
-    <button onclick="Potencia()">Calcular</button>
-    <h3>Resultado:</h3>
-    <p id="resultado-potencia">
-        <!--Mostrar aqui o resultado-->
-    </p>
-
-    <!--Raiz-->
-
-    <hr>
-    <input type="text" id="numraiz" size="2"><br>
-    <br>
-    <button onclick="Raiz()">Calcular</button>
-    <h3>Resultado:</h3>
-    <p id="resultado-raiz">
-        <!--Mostrar aqui o resultado-->
-    </p>
-
-    <!--Área de um triângulo retângulo-->
-
-    <hr>
-    <input type="text" id="b" size="2"><br>
-    <input type="text" id="h" size="2"><br>
-    <br>
-    <button onclick="Area()">Calcular</button>
-    <h3>Resultado:</h3>
-    <p id="resultado-area">
-        <!--Mostrar aqui o resultado-->
-    </p>
-
-    <!--Bhaskara-->
-
-    <hr>
-    <input type="text" id="a" size="2"><br>
-    <input type="text" id="b" size="2"><br>
-    <input type="text" id="c" size="2"><br>
-    <br>
-    <button onclick="Quadratica()">Calcular</button>
-    <h3>Resultado:</h3>
-    <p id="resultado-bhaskara1">
-        <!--Mostrar aqui o resultado-->
-    </p>
-    <p id="resultado-bhaskara2">
-        <!--Mostrar aqui o resultado-->
-    </p>
+   
 
 
 
@@ -91,14 +24,17 @@
     <input type="radio" name="opt" value="-">-
     <input type="radio" name="opt" value="*">*
     <input type="radio" name="opt" value="/">/
-    <input type="radio" name="opt" value="*">Potência
-    <input type="radio" name="opt" value="/">Raiz
-    <input type="radio" name="opt" value="/">Área
-    <input type="radio" name="opt" value="/">Bhaskara
+    <input type="radio" name="" value="1">Potência
+    <input type="radio" name="r" value="2">Raiz
+    <input type="radio" name="a" value="3">Área
+    <input type="radio" name="b" value="4">Bhaskara
     <br>
-    <button onclick="Operacao()">Calcular</button>
+    <button onclick="Calculadora()">Calcular</button>
     <h3>Resultado:</h3>
     <p id="mostrar-resultado">
+        <!--Mostrar aqui o resultado-->
+    </p>
+    <p id="mostrar-resultado2">
         <!--Mostrar aqui o resultado-->
     </p>
 

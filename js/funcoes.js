@@ -1,4 +1,4 @@
-/*//Calculadora com as 4 operações básicas
+//Calculadora com as 4 operações básicas
 function Calculadora(){
     num1 = document.getElementById("num1").value;
     num2 = document.getElementById("num2").value;
@@ -51,7 +51,7 @@ function Quadratica(){
 
     document.getElementById("resultado-bhaskara1").innerHTML = resultado1;
     document.getElementById("resultado-bhaskara2").innerHTML = resultado2;
-}*/
+}
 
 
 
@@ -63,7 +63,7 @@ function Quadratica(){
 
 
 
-
+/*
 function Calculadora(){
         //Calculadora com as 4 operações básicas
     if(querySelector("input[name=opt]:checked")){
@@ -132,3 +132,4 @@ function Calculadora(){
     }
 }
 
+*/

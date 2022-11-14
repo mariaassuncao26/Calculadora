@@ -9,28 +9,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <STYLE>A {text-decoration: none; color: #ffffff;}</STYLE>
     <title>Calculadora</title>
 </head>
 <body>
 
+    <div class="voltar">
+        <a href="index.html">Voltar à página inicial</a>
+    </div>
+
+
  <!--4 operações básicas-->
 
- <input type="text" id="num1" size="2"><br>
- <input type="text" id="num2" size="2"><br>
- <input type="radio" name="opt" value="+">+
- <input type="radio" name="opt" value="-">-
- <input type="radio" name="opt" value="*">*
- <input type="radio" name="opt" value="/">/
- <br>
- <button onclick="Calculadora()">Calcular</button>
- <h3>Resultado:</h3>
- <p id="mostrar-resultado">
-     <!--Mostrar aqui o resultado-->
- </p>
+    <input type="text" id="num1" class="bhtml1"><br>
+    <div class="opr conteiner">
+        <div class="mais">
+            <input type="radio" name="opt" value="+">Adição (+)
+        </div>
+        <div class="menos">
+            <input type="radio" name="opt" value="-">Subtração (-)
+        </div> 
+        <div class="mult ">
+            <input type="radio" name="opt" value="*" >Multiplicação (x)
+        </div>
+        <div class="divs">
+            <input type="radio" name="opt" value="/">Divisão (/) <br>
+        </div>
+    </div>
+    <input type="text" id="num2" class="bhtml2"><br>
+
+    <button onclick="Calculadora()" class="calcular">Calcular</button>
+    <h3 class="bresultado conteiner">Resultado:</h3>
+    <p id="mostrar-resultado" >
+        <!--Mostrar aqui o resultado-->
+    </p>
 
 
 
- <a href="index.html">Voltar à página inicial</a>
+
     
 </body>
 </html>

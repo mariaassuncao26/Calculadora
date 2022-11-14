@@ -9,28 +9,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <STYLE>A {text-decoration: none; color: #ffffff;}</STYLE>
     <title>Calculadora</title>
 </head>
 <body>
 
+    <div class="voltar">
+        <a href="index.html">Voltar à página inicial</a>
+    </div>
 
 
     <!--Potência-->
 
-    <hr>
-    <h3>Digite a base:</h3>
-    <input type="text" id="num" size="2"><br>
-    <h3>Digite o expoente:</h3>
-    <input type="text" id="elevado" size="2"><br>
+    
+    <h3 class="b conteiner">Digite a base:</h3>
+    <input type="text" id="num" size="2" class="phtml1"><br>
+    <h3 class="ex conteiner">Digite o expoente:</h3>
+    <input type="text" id="elevado" size="2" class="phtml2"><br>
     <br>
-    <button onclick="Potencia()">Calcular</button>
-    <h3>Resultado:</h3>
+    <button onclick="Potencia()" class="calcular">Calcular</button>
+    <h3 class="bresultado conteiner">Resultado:</h3>
     <p id="resultado-potencia">
         <!--Mostrar aqui o resultado-->
     </p>
 
 
-    <a href="index.html">Voltar à página inicial</a>
     
 </body>
 </html>

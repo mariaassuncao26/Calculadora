@@ -9,30 +9,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <STYLE>A {text-decoration: none; color: #ffffff;}</STYLE>
     <title>Calculadora</title>
 </head>
 <body>
 
-
+    <div class="voltar">
+        <a href="index.html">Voltar à página inicial</a>
+    </div>
 
 
     <!--Bhaskara-->
 
-    <hr>
-    <input type="text" id="a" size="2"><br>
-    <input type="text" id="b" size="2"><br>
-    <input type="text" id="c" size="2"><br>
-    <br>
-    <button onclick="Quadratica()">Calcular</button>
-    <h3>Resultado:</h3>
-    <p id="resultado-bhaskara1">
+    <h3 class="va conteiner">Digite o valor de A:</h3>
+    <input type="text" id="a" class="qhtml1"><br>
+    <h3 class="vb conteiner">Digite o valor de B:</h3>
+    <input type="text" id="b" class="qhtml2"><br>
+    <h3 class="vc conteiner">Digite o valor de C:</h3>
+    <input type="text" id="c" class="qhtml3"><br>
+    
+    <button onclick="Quadratica()" class="calcularb">Calcular</button>
+    <h3 class="x1 conteiner">X1 =</h3>
+    <p id="resultado-bhaskara1" class="conteiner">
+        
         <!--Mostrar aqui o resultado-->
     </p>
-    <p id="resultado-bhaskara2">
+    <h3 class="x2 conteiner">X2 =</h3>
+    <p id="resultado-bhaskara2" class="conteiner">
+         
         <!--Mostrar aqui o resultado-->
     </p>
 
-    <a href="index.html">Voltar à página inicial</a>
     
 </body>
 </html>

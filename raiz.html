@@ -9,24 +9,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <STYLE>A {text-decoration: none; color: #ffffff;}</STYLE>
     <title>Calculadora</title>
 </head>
 <body>
 
-
+    <div class="voltar">
+        <a href="index.html">Voltar à página inicial</a>
+    </div>
 
     <!--Raiz-->
-
-    <hr>
-    <input type="text" id="numraiz" size="2"><br>
+    <h3 class="r conteiner">Digite o número na raiz:</h3>
+    <input type="text" id="numraiz" size="2" class="rhtml"><br>
     <br>
-    <button onclick="Raiz()">Calcular</button>
-    <h3>Resultado:</h3>
+    <button onclick="Raiz()" class="calcular">Calcular</button>
+    <h3 class="bresultado conteiner">Resultado:</h3>
     <p id="resultado-raiz">
         <!--Mostrar aqui o resultado-->
     </p>
 
-    <a href="index.html">Voltar à página inicial</a>
 
     
 </body>

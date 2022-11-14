@@ -9,25 +9,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <STYLE>A {text-decoration: none; color: #ffffff;}</STYLE>
     <title>Calculadora</title>
 </head>
 <body>
 
+    <div class="voltar">
+        <a href="index.html">Voltar à página inicial</a>
+    </div>
 
 
     <!--Área de um triângulo retângulo-->
 
-    <hr>
-    <input type="text" id="b" size="2"><br>
-    <input type="text" id="h" size="2"><br>
+    <h3 class="bt conteiner">Digite a base do triângulo retângulo:</h3>
+    <input type="text" id="b" class="ahtml1"><br>
+    <h3 class="al conteiner">Digite a altura do triângulo retângulo:</h3>
+    <input type="text" id="h" class="ahtml2"><br>
     <br>
-    <button onclick="Area()">Calcular</button>
-    <h3>Resultado:</h3>
+    <button onclick="Area()" class="calculara">Calcular</button>
+    <h3 class="aresultado conteiner">A área do triângulo é:</h3>
     <p id="resultado-area">
         <!--Mostrar aqui o resultado-->
     </p>
 
-<a href="index.html">Voltar à página inicial</a>
 
     
 </body>
